@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+  <div class="contenedor">
+
+    <h1>Conversor de Monedas</h1>
+
+    <div class="conversor">
+
+      <div class="grupo-input">
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad">
+
+      </div>
+
+      <div class="grupo-input">
+
+        <label for="de">De:</label>
+        <select id="de">
+          <!-- Opciones de las monedas -->
+        </select>
+
+      </div>
+
+      <div class="grupo-input">
+
+        <label for="a">A:</label>
+        <select id="a">
+          <!-- Opciones de las monedas -->
+        </select>
+
+      </div>
+
+      <button id="convertirBtn">Convertir</button>
+
+    </div>
+
+    <div id="resultado"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
